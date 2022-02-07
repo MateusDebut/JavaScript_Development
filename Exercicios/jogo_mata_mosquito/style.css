@@ -1,0 +1,59 @@
+body{
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mosquito1{
+    width: 80px;
+    height: 80px;
+}
+
+.mosquito2{
+    width: 120px;
+    height: 120px;
+}
+
+.mosquito3{
+    width: 160px;
+    height: 160px;
+}
+
+.esquerda{
+    transform: scaleX(1);
+}
+
+.esquerda{
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 200px;
+    padding: 15px;
+    bottom: 120px;
+    left: 120px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-gameOver{
+    height: 1000px;
+    width: 1000px;
+}
+
+.botao{
+    width: 200px;
+    margin: 10px;
+}
